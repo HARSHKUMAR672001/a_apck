@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+.next/
+out/
+dist/
+
+# Environment variables
+.env*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+turbo-debug.log*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# MacOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+
+# Misc
+coverage/
+*.log
