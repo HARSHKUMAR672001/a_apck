@@ -36,7 +36,7 @@ const QuoteForm = () => {
         </div>
       </div>
 
-      <div className="relative z-10 max-w-lg mx-auto  lg:max-w-screen-xl my-16 px-6 py-8 bg-white rounded-lg shadow-xl opacity-90 lg:w-1/2 flex justify-center flex-col">
+      <div className="relative z-10 max-w-lg mx-auto  lg:max-w-screen-xl my-16 px-1 py-8 bg-white rounded-lg shadow-xl opacity-90 lg:w-1/2 flex justify-center flex-col">
         <h3 className="text-2xl font-semibold text-gray-900 mb-4">Get a Free Quote</h3>
         <form onSubmit={sendEmail}>
           <div className="grid grid-cols-1 gap-4 mb-4 sm:grid-cols-2">
