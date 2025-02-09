@@ -1,14 +1,16 @@
 const LocationData = {
-  "Chhattisgarh": {
+  "Hydrabad": {
     "Packers Movers": [
-      "Ambikapur",
-      "Bhilai",
-      "Durg",
-      "Bilaspur",
-      "Chirmiri",
-      "Korba City",
-      "Raigarh",
-      "Raipur"
+      "Madhapur", "Kukatpally", "Kondapur", "Manikonda", "Hitech City", "Jubilee Hills",
+      "Lingampally", "Nanakramguda", "Miyapur", "Gachibowli", "Secunderabad", "Moosapet",
+      "Banjara Hills", "Kothaguda", "KPHB Colony", "Shamshabad", "Ramoji Film City",
+      "Beeramguda", "Somajiguda", "Yousufguda", "Sri Nagar Colony", "Ameerpet",
+      "Chanda Nagar", "Nizampet", "Begumpet", "AS Rao Nagar", "Nacharam", "Ramanthapur",
+      "Bachupally", "Mehdipatnam", "Attapur", "Pragathi Nagar", "Dilsukh Nagar", "Uppal",
+      "Abids", "SR Nagar", "Nallagandla", "Himayatnagar", "Malkajgiri", "Tolichowki",
+      "Bowenpally", "Kokapet", "Shaikpet", "Kompally", "Rajendra Nagar", "Patancheru",
+      "Tukkuguda", "LB Nagar", "Adibatla", "Hayathnagar", "Hafeezpet", "Sun City",
+      "Suchitra", "Habsiguda", "Nallakunta", "Jeedimetla"
     ]
   },
   "Rajasthan": {

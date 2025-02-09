@@ -19,7 +19,7 @@ const Hero = () => {
       {/* Main Content */}
       <div className="mx-auto max-w-7xl py-28 sm:py-40 lg:py-48 text-center text-white">
         <h1 className="text-4xl font-extrabold sm:text-6xl animate-fadeIn">
-          A Pack Movers
+        A packers and movers 
         </h1>
         <p className="mt-6 text-lg leading-8 text-gray-200 animate-opacity">
           Click to Get Free Quotes for Relocation Services

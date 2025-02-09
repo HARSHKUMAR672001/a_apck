@@ -70,17 +70,14 @@ const GetInTouch = () => {
         <div className="flex flex-col md:flex-row md:space-x-8">
           {/* Contact Details */}
           <div className="md:w-1/2 bg-white dark:bg-gray-800 shadow-lg rounded-lg p-6 mb-6 md:mb-0">
+          <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-4 bg-gradient-to-r from-blue-600 to-blue-400 text-transparent bg-clip-text " >A Packers and Movers</h1>
             <h3 className="text-2xl font-semibold text-gray-700 dark:text-white mb-4">
               Contact Information
             </h3>
             {[
               { label: "Toll Free", number: "8688815001" },
-              { label: "Pune Office", number: "9767105569, 9324464949" },
-              { label: "Delhi Office", number: "9540515001" },
-              { label: "Kolkata Office", number: "9331005001, 9051226562" },
-              { label: "Gurgaon Office", number: "08930468427" },
-              { label: "Bangalore", number: "9632433261, 8688815001" },
-              { label: "Hyderabad, Mumbai, Chennai", number: "8688815001" },
+              { label: "Toll Free", number: "9318446470" },
+              
             ].map((contact, index) => (
               <div key={index} className="flex items-start mb-4">
                 <FaPhoneAlt className="text-blue-500 dark:text-blue-400 mr-2" />

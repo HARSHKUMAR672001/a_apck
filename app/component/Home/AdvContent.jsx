@@ -20,8 +20,8 @@ const ServicesSection = () => {
             {/* Cards Section */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {/* Card 1 */}
-                <div className="group relative bg-white dark:bg-gray-800 shadow-lg rounded-lg p-5 transition-transform duration-500 hover:scale-105">
-                    <div className="w-full h-72 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                <div className="group relative bg-white dark:bg-gray-800 shadow-lg rounded-lg md:p-5 transition-transform duration-500 hover:scale-105">
+                    <div className=" md:h-72 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
                         <Image src={im1} alt="Moving By Road" className="w-full h-full object-cover" />
                     </div>
                     <div className="flex justify-center text-green-500 dark:text-green-400 mt-4">
@@ -34,7 +34,7 @@ const ServicesSection = () => {
 
                 {/* Card 2 */}
                 <div className="group relative bg-white dark:bg-gray-800 shadow-lg rounded-lg p-5 transition-transform duration-500 hover:scale-105">
-                    <div className="w-full h-72 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                    <div className=" md:h-72 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
                         <Image src={im2} alt="Moving By Air" className="w-full h-full object-cover" />
                     </div>
                     <div className="flex justify-center text-blue-500 dark:text-blue-400 mt-4">
@@ -47,7 +47,7 @@ const ServicesSection = () => {
 
                 {/* Card 3 */}
                 <div className="group relative bg-white dark:bg-gray-800 shadow-lg rounded-lg p-5 transition-transform duration-500 hover:scale-105">
-                    <div className="w-full h-72 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
+                    <div className=" md:h-72 bg-gray-200 dark:bg-gray-700 rounded-lg overflow-hidden">
                         <Image src={im3} alt="Moving By Ship" className="w-full h-full object-cover" />
                     </div>
                     <div className="flex justify-center text-purple-500 dark:text-purple-400 mt-4">

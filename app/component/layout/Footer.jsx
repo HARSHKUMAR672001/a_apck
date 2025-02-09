@@ -12,7 +12,7 @@ const Footer = () => {
             <img src={one.src} alt=" hhh" className="h-20" />
             <p className="mt-4 text-lg text-gray-200">Providing reliable and efficient relocation services to make your move stress-free.</p>
 
-            {/* <div className="flex mt-8 gap-6">
+            <div className="flex mt-8 gap-6">
               <a href="#" className="text-white hover:text-blue-400 transition-colors duration-300">
                 <FaFacebook size={30} />
               </a>
@@ -22,7 +22,7 @@ const Footer = () => {
               <a href="#" className="text-white hover:text-blue-400 transition-colors duration-300">
                 <FaInstagram size={30} />
               </a>
-            </div> */}
+            </div>
           </div>
           {Object.keys(FooterData).map((category) => (
             <div key={category}>
