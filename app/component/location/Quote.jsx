@@ -24,7 +24,7 @@ const QuoteForm = () => {
     }
   };
   return (
-    <div className="relative flex flex-col-reverse px-6  mx-auto lg:flex-row lg:justify-between lg:items-center  md:px-8 sm:max-w-xl md:max-w-full bg-cover bg-center"
+    <div className="relative flex flex-col-reverse md:px-6  mx-auto lg:flex-row lg:justify-between lg:items-center  md:px-8 sm:max-w-xl md:max-w-full bg-cover bg-center"
       style={{ backgroundImage: 'url("https://images.unsplash.com/photo-1566406922140-8fcd0396b361?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")' }}>
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
@@ -36,7 +36,7 @@ const QuoteForm = () => {
         </div>
       </div>
 
-      <div className="relative z-10 max-w-lg mx-auto  lg:max-w-screen-xl my-16 px-1 py-8 bg-white rounded-lg shadow-xl opacity-90 lg:w-1/2 flex justify-center flex-col">
+      <div className="relative z-10 max-w-lg mx-auto  lg:max-w-screen-xl my-16 px-6 py-8 bg-white rounded-lg shadow-xl opacity-90 lg:w-1/2 flex justify-center flex-col">
         <h3 className="text-2xl font-semibold text-gray-900 mb-4">Get a Free Quote</h3>
         <form onSubmit={sendEmail}>
           <div className="grid grid-cols-1 gap-4 mb-4 sm:grid-cols-2">
